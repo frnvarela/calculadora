@@ -1,0 +1,43 @@
+<div class="container bg-secondary">
+    <div class="row">
+        <div class="col">
+            &nbsp;
+            <div class="row alert alert-info mx-auto">
+                <span class="display"> {{ display }}</span>
+            </div>
+            <div class="row text-center">
+                <p>
+                    <button class="btn btn-dark btn-lg" (click)="clic_AC($event)">  &nbsp;C&nbsp; </button>  &nbsp;
+                    <button class="btn btn-dark btn-lg" (click)="clic_Sig($event)"> +/- </button> &nbsp;
+                    <button class="btn btn-dark btn-lg" (click)="clic_Per($event)"> &nbsp;%&nbsp; </button> &nbsp;
+                    <button class="btn btn-warning btn-lg" (click)="clic_Ope($event)"> &nbsp;÷&nbsp;</button> &nbsp;
+                </p>
+                <p>
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;7&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;8&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;9&nbsp; </button> &nbsp;
+                    <button class="btn btn-warning btn-lg" (click)="clic_Ope($event)"> &nbsp;&#215;&nbsp; </button> &nbsp; 
+                </p>
+                <p>
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;4&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;5&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;6&nbsp; </button> &nbsp;
+                    <button class="btn btn-warning btn-lg" (click)="clic_Ope($event)"> &nbsp;-&nbsp; </button> &nbsp;
+                </p>
+                <p>
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;1&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;2&nbsp; </button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;3&nbsp; </button> &nbsp;
+                    <button class="btn btn-warning btn-lg" (click)="clic_Ope($event)"> &nbsp;+&nbsp; </button> &nbsp;
+                </p>
+                <p>
+                    <button class="btn btn-info btn-lg" (click)="clic_Num($event)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button> &nbsp;
+                    <button class="btn btn-info btn-lg" (click)="clic_Dec($event)"> &nbsp;.&nbsp; </button> &nbsp;
+                    <button class="btn btn-danger btn-lg" (click)="clic_Igual($event)"> &nbsp;=&nbsp; </button> &nbsp;
+                </p>
+    </div>
+</div>
+</div>
+</div>
+<!-- <p> {{ stack }} </p>
+<p> {{ operation }} </p> -->
